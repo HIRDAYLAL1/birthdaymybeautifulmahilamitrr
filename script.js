@@ -564,3 +564,55 @@ memoryPhoto.addEventListener("dragstart", (event) => {
 console.log(
     "🎂 Birthday Website loaded successfully ❤️"
 );
+// ===============================
+// END BUTTON + RESTART
+// ===============================
+
+const endBtn = document.getElementById("endBtn");
+const thankYouMessage = document.getElementById("thankYouMessage");
+
+if (endBtn) {
+    endBtn.addEventListener("click", () => {
+
+        // Hide END button
+        endBtn.style.display = "none";
+
+        // Show thank-you message
+        if (thankYouMessage) {
+            thankYouMessage.classList.remove("hidden");
+        }
+
+        // After 2.5 seconds, restart from Page 1
+        setTimeout(() => {
+
+            // Hide thank-you message
+            if (thankYouMessage) {
+                thankYouMessage.classList.add("hidden");
+            }
+
+            // Show Page 1
+            showPage(1);
+
+            // Show END button again for next cycle
+            endBtn.style.display = "";
+
+            // Reset password
+            const passwordInput = document.getElementById("passwordInput");
+            if (passwordInput) {
+                passwordInput.value = "";
+            }
+
+            // Reset candles
+            document.querySelectorAll(".candle").forEach(candle => {
+                candle.classList.remove("blown");
+                candle.style.opacity = "1";
+
+                const flame = candle.querySelector(".flame");
+                if (flame) {
+                    flame.style.display = "inline";
+                }
+            });
+
+        }, 2500);
+    });
+}
