@@ -246,35 +246,35 @@ function createCelebration() {
 
 const photos = [
 
-    "Birthday Files/Snapchat-1529419096.jpg",
+    "Snapchat-1529419096.jpg",
 
-    "Birthday Files/IMG-20260917-WA0021.jpg",
+    "IMG-20260917-WA0021.jpg",
 
-    "Birthday Files/IMG-20260917-WA0020.jpg",
+    "IMG-20260917-WA0020.jpg",
 
-    "Birthday Files/IMG-20260917-WA0005.jpg",
+    "IMG-20260917-WA0005.jpg",
 
-    "Birthday Files/IMG-20260917-WA0004.jpg",
+    "IMG-20260917-WA0004.jpg",
 
-    "Birthday Files/IMG-20260917-WA0029.jpg",
+    "IMG-20260917-WA0029.jpg",
 
-    "Birthday Files/IMG-20260917-WA0019.jpg",
+    "IMG-20260917-WA0019.jpg",
 
-    "Birthday Files/IMG-20260917-WA0028.jpg",
+    "IMG-20260917-WA0028.jpg",
 
-    "Birthday Files/IMG-20260915-WA0007 (1).jpg",
+    "IMG-20260915-WA0007 (1).jpg",
 
-    "Birthday Files/IMG-20260917-WA0006 (1).jpg",
+    "IMG-20260917-WA0006 (1).jpg",
 
-    "Birthday Files/IMG-20260915-WA0002.jpg",
+    "IMG-20260915-WA0002.jpg",
 
-    "Birthday Files/IMG-20260915-WA0004.jpg",
+    "IMG-20260915-WA0004.jpg",
 
-    "Birthday Files/IMG-20260917-WA0027.jpg",
+    "IMG-20260917-WA0027.jpg",
 
-    "Birthday Files/IMG-20260915-WA0009.jpg",
+    "IMG-20260915-WA0009.jpg",
 
-    "Birthday Files/IMG-20260917-WA0007.jpg"
+    "IMG-20260917-WA0007.jpg"
 
 ];
 
