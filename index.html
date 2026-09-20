@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Richa ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND MUSIC
+    ========================================== -->
+
+    <audio id="bgMusic"></audio>
+        <source src="Birthday Files/Jaane Kyun Full Video - Dostanajhon,Abhishek,PriyankaVishal DadlaniVishal & Shekhar.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <!-- =========================================
+         PAGE 1 — OPENING
+    ========================================== -->
+
+    <section id="page1" class="page active">
+
+        <div class="page-content">
+
+            <p class="small-intro">A little surprise for someone special...</p>
+
+            <h1>HEY CUTIE<br>HAPPY BIRTHDAY</h1>
+
+            <h2>HAPPY BIRTHDAY MY MAHILA MITRR</h2>
+
+            <h3>HAPPY BIRTHDAY RICH ❤️</h3>
+
+            <button id="startBtn" class="main-btn">
+                NEXT ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 2 — PASSWORD
+    ========================================== -->
+
+    <section id="page2" class="page hidden">
+
+        <div class="page-content">
+
+            <h2>HEY CUTIE ❤️</h2>
+
+            <p>
+                PLEASE ENTER THE PASSWORD TO SEE THE SURPRISE
+            </p>
+
+            <input
+                type="text"
+                id="passwordInput"
+                placeholder="Enter password..."
+                autocomplete="off"
+            >
+
+            <p id="passwordMessage" class="message"></p>
+
+            <button id="passwordBtn" class="main-btn">
+                UNLOCK SURPRISE 🔐
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 3 — 17 CANDLES
+    ========================================== -->
+
+    <section id="page3" class="page hidden">
+
+        <div class="page-content">
+
+            <h2>17 CANDLES FOR 17 BEAUTIFUL YEARS 🕯️</h2>
+
+            <p id="candleInstruction">
+                Tap every candle to blow it out ❤️
+            </p>
+
+            <div id="candlesContainer" class="candles-container">
+
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+
+                <div class="candle"><span class="flame">🔥</span></div>
+                <div class="candle"><span class="flame">🔥</span></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 4 — CHOCOLATE CAKE
+    ========================================== -->
+
+    <section id="page4" class="page hidden">
+
+        <div class="page-content">
+
+            <h2>TAP TO CUT THE CAKE 🎂</h2>
+
+            <p id="cakeInstruction">
+                Your chocolate cake is waiting... ❤️
+            </p>
+
+            <div id="cake" class="cake">
+
+                <div class="cake-candle">
+                    <span class="cake-flame">🔥</span>
+                </div>
+
+                <div class="cake-top"></div>
+
+                <div class="cake-middle"></div>
+
+                <div class="cake-bottom"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 5 — PHOTO MEMORIES
+    ========================================== -->
+
+    <section id="page5" class="page hidden">
+
+        <div class="page-content memories-page">
+
+            <h2>OUR BEAUTIFUL MAHILA MITRR ❤️</h2>
+
+            <p id="photoMessage">
+                Some beautiful moments deserve to be remembered...
+            </p>
+
+            <div id="photoContainer" class="photo-container">
+
+                <img
+                    id="memoryPhoto"
+                    src=""
+                    alt="Birthday memory"
+                >
+
+            </div>
+
+            <p id="photoCounter"></p>
+
+            <button id="photoNextBtn" class="main-btn hidden">
+                NEXT ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 6 — LETTER
+    ========================================== -->
+
+    <section id="page6" class="page hidden">
+
+        <div class="page-content">
+
+            <div id="letterIntro">
+
+                <div class="envelope">💌</div>
+
+                <h2>HEY CUTIE ❤️</h2>
+
+                <p>
+                    A BEAUTIFUL LETTER FROM YOUR PURUSH MITRR IS HERE.
+                    PLEASE CLICK TO OPEN.
+                </p>
+
+                <button id="openLetterBtn" class="main-btn">
+                    OPEN LETTER 💌
+                </button>
+
+            </div>
+
+
+            <div id="letterBox" class="letter-box hidden">
+
+                <div class="letter-paper">
+
+                    <h2>Dear Meri Bahut Acchi Dost,<br>
+                        Meri Bestie, Meri Safe Space ❤️</h2>
+
+                    <p>
+                        Happy Birthday, Mahila Mitrr! 😂🎂
+                    </p>
+
+                    <p>
+                        Pata nahi humari friendship kaise start hui thi,
+                        but honestly, aaj tu meri life ke un logon mein se hai
+                        jinke saamne mujhe kuch bhi bolne se pehle sochna nahi padta.
+                        Tu meri bestie bhi hai, safe space bhi hai, aur meri life ki
+                        woh person hai jiske saath PAGALPANTI bhi genuine lagti hai
+                        aur serious baatein bhi comfortable. 😂❤️
+                    </p>
+
+                    <p>
+                        Tere saath ek alag hi comfort hai. Kabhi random baatein,
+                        kabhi unnecessary discussions, kabhi bina reason hasi-mazaak…
+                        aur kabhi woh conversations jo actually dil se hoti hain.
+                        Aur shayad isi wajah se tu mere liye sirf “ek dost” nahi hai.
+                    </p>
+
+                    <p>
+                        Sach bolun toh life mein har kisi ke saath hum apna real
+                        version nahi dikha paate, but tere saamne main bina filter
+                        ke reh sakta hoon. No judgement, no unnecessary drama,
+                        bas ek genuine sa comfort. 🫶
+                    </p>
+
+                    <p>
+                        Aur haan, birthday hai toh zyada emotional nahi hona…
+                        warna main bhi emotional ho jaunga aur phir dono ka
+                        reputation kharab ho jayega. 😭😂
+                    </p>
+
+                    <p>
+                        Bas itna chahta hoon ki tu hamesha khush rahe, jo bhi
+                        dreams hain tere woh complete ho, aur life tujhe har woh
+                        cheez de jo tu deserve karti hai. Aur haan, chahe life
+                        kitni bhi busy ho jaye, kitne bhi naye log aa jayein,
+                        humari friendship ka ye bond kabhi change nahi hona chahiye. ❤️
+                    </p>
+
+                    <p>
+                        Thank you meri life ka woh person banne ke liye jiske saamne
+                        main genuinely “main jaisa hoon waisa” reh sakta hoon.
+                    </p>
+
+                    <p>
+                        Aaj ka din full enjoy kar, cake kha, photos kheench,
+                        memories bana… aur haan, birthday treat ka topic hum baad
+                        mein discuss kar lenge. 😌😂
+                    </p>
+
+                    <p>
+                        Once again, Happy Birthday meri bestie! 🎂❤️
+                        Stay happy, stay blessed, and please hamesha aisi hi rehna.
+                    </p>
+
+                    <p class="letter-sign">
+                        — From your Purush Mitrr 😂❤️
+                    </p>
+
+                    <button id="closeLetterBtn" class="main-btn">
+                        CLOSE LETTER ❤️
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <button id="letterNextBtn" class="main-btn hidden">
+                NEXT ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 7 — EMOTIONAL MESSAGE
+    ========================================== -->
+
+    <section id="page7" class="page hidden">
+
+        <div class="page-content">
+
+            <div id="emotionalMessage" class="emotional-message">
+
+                <p>
+                    Mahila Mitrr, ek baat hamesha yaad rakhna, life mein koi aur
+                    ho ya na ho, tera ye Purush Mitrr hamesha tere saath khada rahega.
+                    Tujhe protect karne, support karne aur jab bhi zarurat ho tab
+                    tera saath dene ke liye main hamesha rahunga.
+                </p>
+
+                <p>
+                    Har situation mein shayad main har problem solve na kar paun,
+                    lekin itna zaroor hai ki tujhe kabhi ye feel nahi hone dunga
+                    ki tu akeli hai. Teri khushi, teri problems, tere ups and downs,
+                    sab mein jitna mere se possible hoga, main tere saath rahunga.
+                </p>
+
+                <p>
+                    Aur haan, Sarthak ko jitne gifts bhejne ho, tu bas mujhe bata dena.
+                    Main hamesha rahunga bhijwane ke liye. Is department ki
+                    responsibility bhi tere Purush Mitrr ki hai.
+                </p>
+
+                <p>
+                    Bas itna samajh le, dosti sirf achhe waqt mein saath rehne
+                    ka naam nahi hai. Jab waqt kharab ho, tab bhi jo insaan tere
+                    side mein khada rahe, wahi asli dost hota hai. Aur main wahi
+                    dost banna chahta hoon jo tere saath hamesha rahe.
+                </p>
+
+            </div>
+
+            <button id="emotionalNextBtn" class="main-btn hidden">
+                NEXT ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PAGE 8 — FINAL BIRTHDAY WISH
+    ========================================== -->
+
+    <section id="page8" class="page hidden">
+
+        <div class="page-content final-page">
+
+            <div class="final-message">
+
+                <h1>HAPPY BIRTHDAY ❤️</h1>
+
+                <h2>MY LOVELY, CUTE, BEAUTIFUL MAHILA MITRR</h2>
+
+                <p>
+                    Aaj ka din sirf tera birthday nahi hai, balki ek reminder hai
+                    ki meri life mein ek itni amazing dost bhi hai jiske saath main
+                    itni PAGAL PANTI kar sakta hoon aur phir bhi friendship survive
+                    kar jaati hai. 😂❤️
+                </p>
+
+                <p>
+                    Tu jaisi hai na, waise hi rehna — khush, pagal, caring,
+                    thodi si annoying aur meri favourite Mahila Mitrr. 😂
+                </p>
+
+                <p>
+                    I hope tere life ka har naya year tujhe aur zyada happiness,
+                    success, beautiful memories aur woh saari cheezein de jo
+                    tere dil ko genuinely khush karein.
+                </p>
+
+                <p>
+                    Kabhi life mein kuch difficult ho, toh bas yaad rakhna —
+                    tera Purush Mitrr kahin disappear nahi hone wala.
+                    Bakchodi ke liye bhi, serious talks ke liye bhi, support ke liye bhi…
+                    aur haan, Sarthak ko gifts bhijwane ke liye bhi. 😂
+                </p>
+
+                <p>
+                    Happy Birthday once again, meri lovely, cute, beautiful
+                    Mahila Mitrr! 🎂❤️
+                </p>
+
+                <p>
+                    Aaj ka din enjoy kar, smile kar, खूब saari memories bana…
+                </p>
+
+                <h2>
+                    “Mahila Mitrr ek hi hai, aur woh bhi meri wali.” ❤️
+                </h2>
+
+                <h3>
+                    — Forever Your Purush Mitrr 😂❤️
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
